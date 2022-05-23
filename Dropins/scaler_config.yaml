@@ -1,0 +1,12 @@
+project_id: myfyp-345109
+namespace: default
+deployment_name: demo-application
+service_account_file_name: myfyp-345109-bc4d4665d54b.json
+threshold_value: 400
+resource_removal_strategy: 0.6
+min_pod_replicas: 2
+max_pod_replicas: 20
+prometheus_server_address: http://localhost:9090
+prediction_error_mitigation_value: 0.2
+enable_cloud_metric_publishing: true
+enable_cloud_logging: true
